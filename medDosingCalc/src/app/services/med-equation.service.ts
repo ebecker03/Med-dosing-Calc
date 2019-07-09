@@ -5,8 +5,7 @@ import { Injectable } from '@angular/core';
 })
 export class MedEquationService {
 
-lbs "number"
-kg "number"
+
 
 
 
