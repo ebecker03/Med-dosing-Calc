@@ -9,6 +9,8 @@ import { AntihistaminesComponent } from './antihistamines/antihistamines.compone
 import { AnalgesicsComponent } from './analgesics/analgesics.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
+import { MiscComponent } from './misc/misc.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { FooterComponent } from './footer/footer.component';
     AntihistaminesComponent,
     AnalgesicsComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    MiscComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
