@@ -1,17 +1,23 @@
-<div class="container-fluid p-3 mb-2 bg-dark text-white">
-    <h1 class="logo">Pediatric Medication Dosing Calculator</h1>
+<div class="container-fluid p-3 mb-1 bg-dark text-white">
+  <h1 class="logo">Pediatric Medication Dosing Calculator</h1>
 </div>
 
-<div class="container mb-2">
-    <div class="row">
-      <div class="col-sm">
-        <a>Antibiotics</a>
-      </div>
-      <div class="col-sm">
-        <a>Analgesics</a>
-      </div>
-      <div class="col-sm">
-        <a>Antihistamines</a>
-      </div>
-    </div>
-  </div>
+<div>
+  <ul class="nav nav-tabs">
+    <li class="nav-item">
+      <a class="nav-link" [routerLink]="['/home']">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" [routerLink]="['/antibiotics']">Antibiotics</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" [routerLink]="['analgesics']">Analgesics</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" [routerLink]="['/antihistamines']">Antihistamines</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" [routerLink]="['/misc']">Misc</a>
+    </li>
+  </ul>
+</div>

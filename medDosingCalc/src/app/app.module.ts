@@ -10,7 +10,6 @@ import { AnalgesicsComponent } from './analgesics/analgesics.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { MiscComponent } from './misc/misc.component';
-import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +21,6 @@ import { AboutComponent } from './about/about.component';
     HeaderComponent,
     FooterComponent,
     MiscComponent,
-    AboutComponent
   ],
   imports: [
     BrowserModule,

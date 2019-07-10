@@ -5,7 +5,7 @@ import { AntibioticsComponent } from './antibiotics/antibiotics.component';
 import { AnalgesicsComponent } from './analgesics/analgesics.component';
 import { AntihistaminesComponent } from './antihistamines/antihistamines.component';
 import { MiscComponent } from './misc/misc.component';
-import { AboutComponent } from './about/about.component';
+
 
 const routes: Routes = [
   { path: '', redirectTo: '/homepage', pathMatch: 'full'},
@@ -14,7 +14,7 @@ const routes: Routes = [
   { path: 'analgesics', component: AnalgesicsComponent },
   { path: 'antihistamines', component: AntihistaminesComponent},
   { path: 'misc', component: MiscComponent },
-  { path: 'about', component: AboutComponent },
+  { path: '**', redirectTo: '/homepage' }
 ];
 
 @NgModule({
