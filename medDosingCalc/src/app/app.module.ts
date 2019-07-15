@@ -10,6 +10,10 @@ import { AnalgesicsComponent } from './analgesics/analgesics.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { MiscComponent } from './misc/misc.component';
+import { AmoxicillinComponent } from './amoxicillin/amoxicillin.component';
+import { PenicillinComponent } from './penicillin/penicillin.component';
+import { AugmentinComponent } from './augmentin/augmentin.component';
+import { DicloxicillinComponent } from './dicloxicillin/dicloxicillin.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +25,10 @@ import { MiscComponent } from './misc/misc.component';
     HeaderComponent,
     FooterComponent,
     MiscComponent,
+    AmoxicillinComponent,
+    PenicillinComponent,
+    AugmentinComponent,
+    DicloxicillinComponent,
   ],
   imports: [
     BrowserModule,
