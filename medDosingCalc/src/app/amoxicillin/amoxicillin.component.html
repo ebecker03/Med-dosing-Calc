@@ -1,52 +1,84 @@
-<div class="step2 bg-light p-2 m-2">
-    <h2>Step 2: Select the potency from the dropdown menu</h2>
+<div class="bg-light">
+    <div>
+        <div class="med text-primary">
+            <h1>Amoxicillin</h1>
+        </div>
+
+        <div>
+            <form>
+                <div>
+                    <div class="form-group m-3">
+                        <label for="exampleFormControlSelect1" class="text-danger">
+                            <h2>Step 2: Click the dropdown to select the suspension potency you wish to use</h2>
+                        </label>
+                        <select class="form-control" id="exampleFormControlSelect1">
+                            <option selected>Click to Select Suspension Potency</option>
+                            <option>125mg/5ml</option>
+                            <option>200mg/5ml</option>
+                            <option>250mg/5ml</option>
+                            <option>400mg/5ml</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group m-3">
+                        <label for="exampleFormControlSelect1" class="text-danger">
+                            <h2>Step 3: Click the dropdown to select the dosing option you wish to use</h2>
+                        </label>
+                        <select class="form-control" id="exampleFormControlSelect1">
+                            <option selected>Click to Select the dosing.</option>
+                            <option value="1">If the child weighs greater than 40 kg (88 lbs) Do not continue and dose
+                                according
+                                to
+                                adult
+                                dosage</option>
+                            <option value="2">Child less than 3 months (<12 weeks old) 30 mg/kg/day divided twice daily
+                                    (every 12 hours) </option> <option value="3">Child greater than 3 months (>12 weeks
+                                    old)
+                                    and less
+                                    than 40
+                                    kg (88 lbs): Mild
+                                    infection 25
+                                    mg/kg/day divided twice daily (every 12 hours)</option>
+                            <option value="3">Child greater than 3 months (>12 weeks old) and less than 40 kg (88 lbs):
+                                Severe
+                                infection 45
+                                mg/kg/day divided twice daily (every 12 hours)</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group ml-3 mr-3 mb-0">
+                        <div>
+                            <label for="exampleFormControlInput1" class="text-danger">
+                                <h2>Step 4: Enter the child's weight, specify if it is in lbs or kg, then click submit
+                                </h2>
+                            </label>
+                        </div>
+                        <div class="input-group">
+                            <span class="input-group-text">Enter the child's weight =></span>
+                            <input type="text" class="form-control" aria-label="Enter the child's weight =>"
+                                id="exampleFormControlInput1">
+                        </div>
+                        <div class="form-check m-3">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1"
+                                value="option1" checked>
+                            <label class="form-check-label" for="exampleRadios1">
+                                lbs
+                            </label>
+                        </div>
+                        <div class="form-check pb-3 mb-0 ml-3 mt-2">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2"
+                                value="option2">
+                            <label class="form-check-label" for="exampleRadios2">
+                                kg
+                            </label>
+                        </div>
+                        
+                        <div>
+                            <button type="submit" class="btn btn-primary mb-3 mt-2 btn-lg btn-block">Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
 </div>
-
-<div>
-    <select class="browser-default custom-select">
-        <option selected>Click to Select Suspension Potency</option>
-        <option value="25">125mg/5ml</option>
-        <option value="40">200mg/5ml</option>
-        <option value="50">250mg/5ml</option>
-        <option value="80">400mg/5ml</option>
-    </select>
-</div>
-
-<div class="p-2 m-2">
-    <h2>Step 3: Select dosing from the dropdown menu</h2>
-</div>
-
-<div>
-    <select class="browser-default custom-select">
-        <option selected>Click to Select the dosing.</option>
-        <option value="1">If the child weighs greater than 40 kg (88 lbs) Do not continue and dose according to adult
-            dosage</option>
-        <option value="2">Child less than 3 months (12 weeks old) 30 mg/kg/day divided twice daily (every 12 hours)
-        </option>
-        <option value="3">Child greater than 3 months (12 weeks old) and less than 40 kg (88 lbs): Mild infection 25
-            mg/kg/day divided twice daily (every 12 hours)</option>
-        <option value="3">Child greater than 3 months (12 weeks old) and less than 40 kg (88 lbs): Severe infection 45
-            mg/kg/day divided twice daily (every 12 hours)</option>
-    </select>
-</div>
-
-<div class="p-2 m-2">
-    <h2>Step 4: Enter childs weight below and specify from the dropdown if it is in kg or lbs</h2>
-</div>
-
-<div class="p-2 m-2">
-    <input type="text" placeholder="Enter childs weight">
-</div>
-
-<div>
-    <select class="browser-default custom-select">
-        <option selected>Click to specify weight in lbs or kg</option>
-        <option value="lbs"><label>lbs</label>
-        </option>
-        <option value="kg"><label>kg</label>
-        </option>
-    </select>
-</div>
-
-
-

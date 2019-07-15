@@ -7,11 +7,11 @@ export class MedEquationService {
 
   constructor() { }
 
-  medEquationlbs(potency, dosing, lbs) {
+  medEquationlbsTwiceDaily(potency, dosing, lbs) {
     (((lbs/2.2)*dosing)/potency)/2
   }
 
-  medEquationkg(potency, dosing, kg) {
+  medEquationkgTwiceDaily(potency, dosing, kg) {
     ((kg*dosing)/potency)/2
   }
 }

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { MedEquationService } from '../services/med-equation.service';
 
 @Component({
   selector: 'app-amoxicillin',
@@ -12,7 +13,7 @@ export class AmoxicillinComponent implements OnInit {
   fifty: number = 50;
   eighty: number = 80;
 
-  constructor() { }
+  constructor(public medEquationService: MedEquationService) { }
 
 
   ngOnInit() {
