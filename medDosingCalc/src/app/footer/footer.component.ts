@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FooterComponent implements OnInit {
 
-  updated: any = Date.now().toString();
+  updated: any = new Date();
 
   constructor() { }
 
